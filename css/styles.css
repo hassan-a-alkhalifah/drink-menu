@@ -1,3 +1,38 @@
+body {
+  background-color: #222;
+  color: #EEE;
+}
+.container {
+  text-align: center;
+}
+h1 {
+  font-family: cursive;
+}
 #drink-menu, #if-under-21 {
   display: none;
+}
+#drink-menu {
+  border: 3px solid #B2A13C;
+  border-radius: 6px;
+  position: relative;
+  margin-top: 40px;
+}
+#drink-menu h2 {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #222;
+    width: fit-content;
+    padding: 0 10px;
+    color: #b2a13c;
+    font-family: cursive;
+}
+#drink-menu ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 30px;
+    font-family: monospace;
+    font-size: 20px
 }
