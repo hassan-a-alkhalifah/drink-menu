@@ -36,3 +36,38 @@ h1 {
     font-family: monospace;
     font-size: 20px
 }
+#if-under-21 {
+    border: 3px solid #b2a13c;
+    border-radius: 6px;
+    padding: 20px;
+}
+#if-under-21 h2{
+  font-family: cursive;
+}
+#if-under-21 p{
+  font-family: monospace;
+  font-size: 20px;
+}
+#diamond-border {
+  height: 100px;
+  text-align: center;
+  transform: rotate(45deg);
+  width: 100px;
+  margin: 40px auto 0 auto;
+  border: 5px dashed #B2A13C;
+}
+#icon {
+  color: #EEE;
+  display: table-cell;
+  height: 60px;
+  transform: rotate(-45deg);
+  vertical-align: middle;
+  width: 60px;
+  font-size: 40px;
+  padding: 15px 0 0 10px;
+}
+button {
+  font-weight: bold!important;
+  color: #222;
+  background-color: #EEE;
+}
